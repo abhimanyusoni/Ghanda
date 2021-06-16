@@ -34,6 +34,7 @@ section.ghanda_body{
         position: relative; letter-spacing: -0.5px;
         margin-bottom: 50px;
         display: table;
+        font-weight: 700;
 
         &::after{
             content: '';
@@ -125,7 +126,7 @@ section.ghanda_body{
                 width: calc(50% - 15px);
                 height: 220px;
                 background: #fff;
-                box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.2);
+                box-shadow: 0px 0px 30px rgba($color: #000000, $alpha: 0.22);
                 border-radius: 15px;
                 display: flex; align-items: center; justify-content: center;
                 margin-bottom: 32px; text-align: center;
@@ -145,6 +146,7 @@ section.ghanda_body{
                     font-size: 24px;
                     margin-bottom: 5px;
                     display: block;
+                    font-weight: 700;
                 }
                 h4{
                     font-size: 30px;
@@ -190,7 +192,7 @@ section.ghanda_body{
                 height: calc(100% + 90px);
                 left: -70px;
                 top: -45px;
-                border: 6px solid #fff;
+                border: 4px solid #fff;
                 border-radius: 25px;
                 z-index: -1;
             }
@@ -208,7 +210,12 @@ section.ghanda_body{
         .odd_heading{
             font-size: 60px; font-weight: 400;
             position: relative; letter-spacing: -0.5px;
-            display: table; margin: 0 auto 70px;
+            display: table; margin: 0 auto 70px; font-weight: 700; 
+
+            & + p{
+                max-width: 1110px;
+                margin-left: auto; margin-right: auto;
+            }
 
             &::after{
                 content: '';
@@ -231,7 +238,7 @@ section.ghanda_body{
             }
         }
         .feature_individual{
-            margin: 30px 0;
+            margin: 10px 0;
 
             .featire_cont{
                 display: flex;
@@ -254,7 +261,7 @@ section.ghanda_body{
                     &::before{
                         content: '';
                         position: absolute;
-                        left: -5px;
+                        left: -8px;
                         top: -4px;
                         width: 5px;
                         height: 5px;
@@ -265,7 +272,7 @@ section.ghanda_body{
                     &::after{
                         content: '';
                         position: absolute;
-                        left: -8px;
+                        left: -11px;
                         top: -7px;
                         width: 11px;
                         height: 11px;
@@ -304,11 +311,11 @@ section.ghanda_body{
                         width: 40%;
 
                         &::before{
-                            right: -5px;
+                            right: -8px;
                             left: auto;
                         }
                         &::after{
-                            right: -8px;
+                            right: -11px;
                             left: auto;
                         }
                     }
@@ -408,7 +415,7 @@ section.ghanda_body{
                 font-size: 135px;
                 -webkit-text-fill-color: transparent;
                 -webkit-text-stroke: 1px #969665;
-                opacity: 0.5;
+                opacity: 0.3;
                 font-weight: 700;
                 transform: rotate(-90deg) translateX(48%);
                 position: absolute;
@@ -444,7 +451,7 @@ section.ghanda_body{
             background: url(../images/tp_bg.png) no-repeat center;
             background-size: cover;
             position: relative;
-            padding: 90px 95px;
+            padding: 90px 70px 90px 80px;
 
             .absolute_wrapper{
                 position: relative;
@@ -1123,10 +1130,6 @@ section.ghanda_body{
         top: -30px;
         right: auto;
         left: -140px;
-    }
-    section.ghanda_body p, section.ghanda_body span, section.ghanda_body div {
-        font-size: 12px;
-        line-height: 23.5px;
     }
     section.ghanda_body .informative .right_info{height: 400px; position: relative; left: 0; right: auto; top: 0; border-width: 0; width: 100%; margin-top: 25px;}
     section.ghanda_body .informative {
