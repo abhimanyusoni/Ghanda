@@ -1,6 +1,18 @@
 section.ghanda_body{
     overflow-x: hidden;
 
+    .top_most_Wrapper{
+        height: 10px;
+
+        .top_most_img{
+            vertical-align: top;
+            position: relative;
+            z-index: 99;
+            height: 10px;
+            object-fit: cover;
+        }
+    }
+
     h1, h2, h3, h4, h5, h6{font-family: 'Karla';}
     p, span, div{font-family: 'Lato'; font-size: 24px; line-height: 44px;}
     img{max-width: 100%;}
@@ -1075,6 +1087,17 @@ section.ghanda_body{
     }
     section.ghanda_body .header img {
         max-width: 100px;
+    }
+    .top_most_Wrapper{
+        height: 5px !important;
+
+        .top_most_img{
+            vertical-align: top;
+            position: relative;
+            z-index: 99;
+            height: 5px !important;
+            object-fit: cover;
+        }
     }
 }
 

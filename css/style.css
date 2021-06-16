@@ -2,6 +2,19 @@ section.ghanda_body {
   overflow-x: hidden;
 }
 
+section.ghanda_body .top_most_Wrapper {
+  height: 10px;
+}
+
+section.ghanda_body .top_most_Wrapper .top_most_img {
+  vertical-align: top;
+  position: relative;
+  z-index: 99;
+  height: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 section.ghanda_body h1, section.ghanda_body h2, section.ghanda_body h3, section.ghanda_body h4, section.ghanda_body h5, section.ghanda_body h6 {
   font-family: 'Karla';
 }
@@ -1324,6 +1337,17 @@ section.ghanda_body .third_party .tp_wrppaer .absolute_wrapper .inner .tp_one im
   }
   section.ghanda_body .header img {
     max-width: 100px;
+  }
+  .top_most_Wrapper {
+    height: 5px !important;
+  }
+  .top_most_Wrapper .top_most_img {
+    vertical-align: top;
+    position: relative;
+    z-index: 99;
+    height: 5px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
