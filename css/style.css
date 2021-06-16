@@ -997,10 +997,10 @@ section.ghanda_body .third_party .tp_wrppaer .absolute_wrapper .inner .tp_one im
     width: 36% !important;
   }
   section.ghanda_body .core_feature .feature_individual .featire_cont .dashed_box::before {
-    left: -6px;
-    top: -4px;
-    width: 4px;
-    height: 4px;
+    left: -5px;
+    top: -3px;
+    width: 3px;
+    height: 3px;
   }
   section.ghanda_body .core_feature .feature_individual .featire_cont .dashed_box::after {
     content: '';
@@ -1011,7 +1011,7 @@ section.ghanda_body .third_party .tp_wrppaer .absolute_wrapper .inner .tp_one im
     height: 9px;
   }
   section.ghanda_body .core_feature .feature_individual.reverse .featire_cont .dashed_box::before {
-    right: -6.5px;
+    right: -5.5px;
     left: auto;
   }
   section.ghanda_body .core_feature .feature_individual.reverse .featire_cont .dashed_box::after {
