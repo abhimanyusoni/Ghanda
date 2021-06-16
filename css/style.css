@@ -327,22 +327,24 @@ section.ghanda_body .core_feature .feature_individual .featire_cont .dashed_box 
 section.ghanda_body .core_feature .feature_individual .featire_cont .dashed_box::before {
   content: '';
   position: absolute;
-  left: -8px;
+  left: -6px;
   top: -4px;
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   background: #ED6025;
   border-radius: 50%;
   z-index: 99;
+  -webkit-transform: translate(-0.5px, 0.5px);
+          transform: translate(-0.5px, 0.5px);
 }
 
 section.ghanda_body .core_feature .feature_individual .featire_cont .dashed_box::after {
   content: '';
   position: absolute;
-  left: -11px;
-  top: -7px;
-  width: 11px;
-  height: 11px;
+  left: -8px;
+  top: -5px;
+  width: 8px;
+  height: 8px;
   background: rgba(237, 96, 37, 0.4);
   border-radius: 50%;
   z-index: 99;
@@ -381,12 +383,12 @@ section.ghanda_body .core_feature .feature_individual.reverse .featire_cont .das
 }
 
 section.ghanda_body .core_feature .feature_individual.reverse .featire_cont .dashed_box::before {
-  right: -8px;
+  right: -6px;
   left: auto;
 }
 
 section.ghanda_body .core_feature .feature_individual.reverse .featire_cont .dashed_box::after {
-  right: -11px;
+  right: -8px;
   left: auto;
 }
 
@@ -938,6 +940,11 @@ section.ghanda_body .third_party .tp_wrppaer .absolute_wrapper .inner .tp_one im
   section.ghanda_body .core_feature .feature_individual.reverse .featire_cont .dashed_box {
     left: 88%;
     width: 23% !important;
+  }
+  section.ghanda_body .core_feature .feature_individual .featire_cont .dashed_box::before,
+  section.ghanda_body .core_feature .feature_individual .featire_cont .dashed_box::after {
+    -webkit-transform: none !important;
+            transform: none !important;
   }
   section.ghanda_body .core_feature .feature_individual.reverse .featire_cont p {
     margin-left: 0;
